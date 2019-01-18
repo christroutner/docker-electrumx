@@ -3,8 +3,6 @@
 
 Based on [this docker container by Dan Connolly](https://github.com/Danconnolly/docker-electrumx)
 
-> Run an Electrum server with one command
-
 An easily configurable Docker image for running an Electrum server.
 
 ## Usage
