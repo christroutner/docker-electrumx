@@ -30,3 +30,5 @@ VOLUME /srv/db
 EXPOSE 50001 50002 51001 51002 8000
 CMD ["electrumx_server"]
 #ENTRYPOINT ["/entrypoint.sh"]
+
+#electrum_rpc binary is in /usr/loca/bin
