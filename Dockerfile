@@ -3,7 +3,7 @@ FROM python:3.6.6-jessie
 ARG ELECTRUMX_VERSION=f7371e7a71c90017d4dd60be6272dc868bcbf672
 
 RUN apt-get update && \
-    apt-get install libleveldb-dev -y && \
+    apt-get install -y libleveldb-dev apt-utils gcc && \
     pip install git+git://github.com/kyuupichan/electrumx.git@${ELECTRUMX_VERSION} && \
     useradd electrumx && \
     mkdir /srv/db && \
